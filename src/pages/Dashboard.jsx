@@ -11,12 +11,12 @@ import {
     Stack,
     Link,
 } from "@chakra-ui/react";
-import Logo from "../fitness.png";
+import Logo from "../assets/favicon.png";
 import { useNavigate } from "react-router-dom";
-import HealthStatsCard from "./HealthStatsCard";
-import ActivityCard from "./ActivityCard";
-import FatGraph from "./FatGraph";
-import Loading from "./Loader";
+import HealthStatsCard from "./components/HealthStatsCard";
+import ActivityCard from "./components/ActivityCard";
+import FatGraph from "./components/FatGraph";
+import Loading from "./components/Loader";
 
 export default function Dashboard() {
     const [fitnessData, setFitnessData] = useState();

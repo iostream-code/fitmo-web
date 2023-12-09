@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
-import fitnessLoaderGif from "../sd.gif"; // Import your fitness loader GIF
+import fitnessLoaderGif from "../../assets/loader_2.gif"; // Import your fitness loader GIF
 
 function Loading() {
   const [isLoading, setIsLoading] = useState(true);
@@ -24,7 +24,7 @@ function Loading() {
           backgroundColor: "black",
         }}
       >
-        
+
         <br />
         <motion.div
           style={{

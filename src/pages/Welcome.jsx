@@ -2,7 +2,7 @@ import { Button, Container, Heading, Text, VStack } from "@chakra-ui/react";
 import { motion, useAnimation } from "framer-motion";
 import React, { useEffect } from "react";
 import axios from "axios";
-import fitnessGif from "../fitness_image.jpg"; // Import your fitness GIF
+import fitnessGif from "../assets/fitness_image.jpg"; // Import your fitness GIF
 import { FaDumbbell } from "react-icons/fa";
 
 export default function FirstPage() {
