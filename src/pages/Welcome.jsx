@@ -79,13 +79,13 @@ export default function FirstPage() {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.8, duration: 1 }}
                     whileHover={{ scale: 1.1, y: -10 }}
-                    whileTap={{ scale: 0.9 }}
+                    whiletap={{ scale: 0.9 }}
                 >
                     <Button
                         colorScheme="red"
                         size="lg"
                         whileHover={{ scale: 1.1, boxShadow: "0 0 8px rgba(0, 0, 0, 0.3)" }}
-                        whileTap={{ scale: 0.9 }}
+                        whiletap={{ scale: 0.9 }}
                         onClick={handleLogin}
                     >
                         <FaDumbbell size={20} style={{ marginRight: "8px" }} />
