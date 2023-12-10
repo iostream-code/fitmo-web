@@ -20,7 +20,7 @@ import { motion } from "framer-motion";
 
 const AnimatedBox = motion(Box);
 
-const HealthStatsCard = ({ weight, height, BP, step, heart }) => {
+export default function HealthStatsCard({ weight, height, BP, step, heart }) {
   const [bgColor] = useToken("colors", ["blue.500"]);
 
   const cardVariants = {
@@ -116,7 +116,7 @@ const HealthStatsCard = ({ weight, height, BP, step, heart }) => {
             {/* {
             BP[0]? JSON.stringify(BP[0] + "/" + BP[1]) : 120/80
             } */}
-          120/80 mmHg
+            120/80 mmHg
           </StatNumber>
         </Stat>
       </AnimatedBox>
@@ -177,5 +177,3 @@ const HealthStatsCard = ({ weight, height, BP, step, heart }) => {
     </Flex>
   );
 };
-
-export default HealthStatsCard;

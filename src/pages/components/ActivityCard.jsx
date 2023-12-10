@@ -11,7 +11,7 @@ import {
 
 import { BarChart, Bar } from "recharts";
 
-const ActivityCard = ({ result, glucose }) => {
+export default function ActivityCard({ result, glucose }) {
   return (
     <Box
       p={4}
@@ -67,5 +67,3 @@ const ActivityCard = ({ result, glucose }) => {
     </Box>
   );
 };
-
-export default ActivityCard;

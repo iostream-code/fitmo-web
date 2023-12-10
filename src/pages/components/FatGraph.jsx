@@ -10,7 +10,7 @@ import {
   Tooltip,
 } from "recharts";
 
-const FatGraph = ({ fat }) => {
+export default function FatGraph({ fat }) {
   return (
     <Box bg="white" border="1px solid #E2E8F0" borderRadius="md">
       <Text fontSize="lg" fontWeight="bold" mb={4} p={4} color="black">
@@ -33,5 +33,3 @@ const FatGraph = ({ fat }) => {
     </Box>
   );
 };
-
-export default FatGraph;

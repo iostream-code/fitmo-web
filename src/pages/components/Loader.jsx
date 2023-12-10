@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 import fitnessLoaderGif from "../../assets/loader_2.gif"; // Import your fitness loader GIF
 
-function Loading() {
+export default function Loading() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -53,5 +53,3 @@ function Loading() {
   }
   return <div>Content loaded successfully!</div>;
 }
-
-export default Loading;

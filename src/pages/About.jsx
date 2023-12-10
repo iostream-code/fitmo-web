@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Container, Heading, Text, Image, Grid } from "@chakra-ui/react";
 import { FaDumbbell, FaHeart, FaChartLine } from "react-icons/fa";
-import colorfulGif from "../giphy.gif";
+import colorfulGif from "../assets/loader_1.gif";
 
 export default function AboutPage() {
   return (
